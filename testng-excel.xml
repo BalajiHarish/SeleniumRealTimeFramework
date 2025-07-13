@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" data-provider-thread-count="3" >
+    <listeners>
+        <listener class-name="com.saucedemo.listeners.AnnotationTransformer"></listener>
+        <listener class-name="com.saucedemo.listeners.MethodInterceptor"></listener>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+    </listeners>
+
+    <test thread-count="3" name="SauceDemoLoginExcelTest">
+        <classes>
+            <class name="com.saucedemo.tests.SauceDemoLoginExcelTest"></class>
+        </classes>
+    </test>
+</suite>

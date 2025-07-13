@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sause Demo Tests Suite">
+    <test name="SauseDemoTests">
+        <classes>
+            <class name="com.saucedemo.tests.InventoryPageTest"></class>
+        </classes>
+    </test>
+</suite>
