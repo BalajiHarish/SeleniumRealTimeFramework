@@ -1,4 +1,4 @@
-//package com.saucedemo.reports;
+//package com.saucedemo.extent_reports;
 //
 //import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 //import com.aventstack.extentreports.reporter.configuration.Theme;
@@ -44,7 +44,7 @@
 //    }
 //
 //    /**
-//     * Flushing the reports ensures extent logs are reflected properly.
+//     * Flushing the extent_reports ensures extent logs are reflected properly.
 //     * Opens the report in the default desktop browser.
 //     * Sets the ThreadLocal variable to default value
 //     * @author Balaji

@@ -1,4 +1,4 @@
-//package com.saucedemo.reports;
+//package com.saucedemo.extent_reports;
 //
 //import com.aventstack.extentreports.ExtentTest;
 //

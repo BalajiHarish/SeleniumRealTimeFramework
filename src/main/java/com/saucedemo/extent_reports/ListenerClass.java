@@ -1,8 +1,8 @@
 //package com.saucedemo.listeners;
 //
 //import com.saucedemo.annotations.FrameworkAnnotations;
-//import com.saucedemo.reports.ExtentReports;
-//import com.saucedemo.reports.ReportLogger;
+//import com.saucedemo.extent_reports.ExtentReports;
+//import com.saucedemo.extent_reports.ReportLogger;
 //import org.testng.ISuite;
 //import org.testng.ISuiteListener;
 //import org.testng.ITestListener;
@@ -20,7 +20,7 @@
 //public class ListenerClass implements ITestListener, ISuiteListener {
 //
 //    /**
-//     * Initialise the reports with the file name
+//     * Initialise the extent_reports with the file name
 //     * @see ExtentReports
 //     */
 //
@@ -30,7 +30,7 @@
 //    }
 //
 //    /**
-//     * Terminate the reports
+//     * Terminate the extent_reports
 //     * @see ExtentReports
 //     */
 //    @Override
@@ -53,7 +53,7 @@
 //
 //    /**
 //     * Marks the test as pass and logs it in the report
-//     * @see com.saucedemo.reports.ReportLogger
+//     * @see com.saucedemo.extent_reports.ReportLogger
 //     */
 //
 //    @Override
@@ -63,7 +63,7 @@
 //
 //    /**
 //     * Marks the test as fail,append base64 screenshot and logs it in the report
-//     * @see com.saucedemo.reports.ReportLogger
+//     * @see com.saucedemo.extent_reports.ReportLogger
 //     * @see com.saucedemo.utils.ScreenshotUtils
 //     */
 //
@@ -71,12 +71,12 @@
 //    public void onTestFailure(ITestResult result) {
 //        ReportLogger.fail(result.getMethod().getMethodName() +" is failed");
 //        ReportLogger.fail(result.getThrowable().toString()); //To get only first line of error stack
-//        //ReportLogger.fail(Arrays.toString(result.getThrowable().getStackTrace())); //To get entire error stack in reports
+//        //ReportLogger.fail(Arrays.toString(result.getThrowable().getStackTrace())); //To get entire error stack in extent_reports
 //    }
 //
 //    /**
 //     * Marks the test as skip and logs it in the report
-//     * @see com.saucedemo.reports.ReportLogger
+//     * @see com.saucedemo.extent_reports.ReportLogger
 //     */
 //
 //    @Override

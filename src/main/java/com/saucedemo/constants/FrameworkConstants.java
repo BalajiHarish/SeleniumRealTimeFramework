@@ -24,7 +24,7 @@ public final class FrameworkConstants {
 
     private static final String RESOURCES_PATH = System.getProperty("user.dir") + "/src/test/resources";
     private static final String CONFIG_FILE_PATH = RESOURCES_PATH + "/config/config.properties";
-    private static final String REPORTS_PATH = System.getProperty("user.dir") + "/reports/";
+    private static final String REPORTS_PATH = System.getProperty("user.dir") + "/extent_reports/";
     private static final String EXCELPATH = RESOURCES_PATH + "/excel/testdata.xlsx";
 
     private static final String RUNMANGERSHEET = "RUNMANAGER";
@@ -53,7 +53,7 @@ public final class FrameworkConstants {
     /**
      *
      * @author Balaji
-     * @return  If Override reports value in the property file is "NO",then the timestamp will be appended
+     * @return  If Override extent_reports value in the property file is "NO",then the timestamp will be appended
      */
 
     public static String getReportsFilePath() {

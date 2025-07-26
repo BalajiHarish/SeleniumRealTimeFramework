@@ -1,11 +1,11 @@
-//package com.saucedemo.reports;
+//package com.saucedemo.extent_reports;
 //
 //import com.aventstack.extentreports.MediaEntityBuilder;
 //import com.saucedemo.utils.PropertyUtils;
 //import com.saucedemo.utils.ScreenshotUtils;
 //
 ///**
-// * Report Logger class helps to log pass,skip and fail steps in the reports.
+// * Report Logger class helps to log pass,skip and fail steps in the extent_reports.
 // * Based on the boolean value given in the Config.properties file for screenshot key, screenshots will be attached to each step
 // *
 // * @author Balaji

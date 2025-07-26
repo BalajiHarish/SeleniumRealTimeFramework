@@ -6,6 +6,8 @@
         <listener class-name="com.saucedemo.listeners.MethodInterceptor"></listener>
         <listener class-name="org.testng.reporters.EmailableReporter2"/>
         <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"></listener>
+        <listener class-name="com.saucedemo.listeners.TestListenerClass"></listener>
     </listeners>
 
     <test thread-count="3" name="SauceDemoLoginExcelTest">

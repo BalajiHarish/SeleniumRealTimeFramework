@@ -3,4 +3,4 @@
  *
  * @author Balaji
  */
-package com.saucedemo.reports;
+package com.saucedemo.extent_reports;
