@@ -2,6 +2,8 @@ package com.saucedemo.driver;
 
 import org.openqa.selenium.WebDriver;
 
+import java.util.Objects;
+
 /**
  * DriverManager class helps to achieve thread safety for the {@link WebDriver} instance.
  *
@@ -37,8 +39,9 @@ public final class DriverManager {
      * @param driverRef {@link WebDriver} instance that needs to saved from Thread safety issues.<p>
      */
 
-    public static void setDriver(WebDriver driverRef) {
-        dr.set(driverRef);
+    static void setDriver(WebDriver driverRef) {
+        if(Objects.nonNull(driverRef))              //This check is to avoid setting null value to the driver. because unloadDriver() method take cares of it
+            dr.set(driverRef);
     }
 
     /**
@@ -47,7 +50,7 @@ public final class DriverManager {
      * @author Balaji
      */
 
-    public static void unloadDriver() {
+    static void unloadDriver() {
         dr.remove();
     }
 }
